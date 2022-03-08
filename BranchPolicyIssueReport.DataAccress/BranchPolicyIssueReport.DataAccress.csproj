@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="BLA.DataAccessUtility.Standard" Version="1.0.4" />
+    <PackageReference Include="BLA.ITUtility.Standard" Version="1.0.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BranchPolicyIssueReport.DataContract\BranchPolicyIssueReport.DataContract.csproj" />
+    <ProjectReference Include="..\WebAppClass\WebAppClass.csproj" />
+  </ItemGroup>
+
+</Project>

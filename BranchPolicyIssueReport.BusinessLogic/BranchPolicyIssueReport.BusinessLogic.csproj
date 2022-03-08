@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BranchPolicyIssueReport.DataAccress\BranchPolicyIssueReport.DataAccress.csproj" />
+    <ProjectReference Include="..\BranchPolicyIssueReport.DataContract\BranchPolicyIssueReport.DataContract.csproj" />
+    <ProjectReference Include="..\WebAppClass\WebAppClass.csproj" />
+  </ItemGroup>
+
+</Project>
